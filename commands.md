@@ -1,5 +1,14 @@
 # Udemy crash course
 
+
+
+```sh
+
+# Print Working Directory
+pwd
+> /home/can/Desktop/workspace/docker/udemy-tuts
+```
+
 ```sh
 
 ### video.77 ###
