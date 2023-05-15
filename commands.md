@@ -60,4 +60,10 @@ echo "asdfghjkl" | docker secret create pass2 -
 
 # Update the secret
 docker service update --secret-rm pass --secret-add pass2  secret_test
+
+
+
+### video.79 ###
+
+[docker-compose.yml](https://github.com/ozgurozturknet/AdanZyeDocker/blob/master/kisim6/bolum79/docker-compose.yml)
 ```
