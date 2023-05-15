@@ -66,4 +66,21 @@ docker service update --secret-rm pass --secret-add pass2  secret_test
 ### video.79 ###
 
 [docker-compose.yml](https://github.com/ozgurozturknet/AdanZyeDocker/blob/master/kisim6/bolum79/docker-compose.yml)
+
+# Change sections
+
+
+# docker-stack
+
+docker stack deploy -c ./docker-compose.yml firststack
+docker stack ls
+docker stack services firststack
+> ID    NAME                MODE        REPLICAS
+> gun   firststack_websrv   replicated  3/3
+> mwd   firststack_mysqldb  replicated  1/1
+
+docker service ps firststack_websrv
+
+docker stack rm firststack
+
 ```
